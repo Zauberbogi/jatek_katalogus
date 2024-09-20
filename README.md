@@ -2,7 +2,8 @@ Játék katalógus
 
 Projekt áttekintése
 
-Weboldalunk különböző játékok leírását tartalmazza. Lehetővé teszi a felhasználók számára, hogy böngésszenek, értékeléseket olvassanak és hozzanak létre.
+A Random Play bolt játékokat ajánl fel kölcsönzésre. Lehet nálunk személyesen és online is regisztrálni, az oldalunkon és személyesen lehet az elkezdett tevékenységedet.
+Nem regisztrált felhasználó megnézheti az oldalt, mások listáját és kritikáját de nem tudd listát csinálni sem kritikát írni.
 
 Főbb funkciók:
 Játékok közötti böngészésben a felhasználó beállíthatja milyen műfajról szeretne olvasni.
@@ -20,7 +21,7 @@ Ezek az alábbiak:
 
 Minden játékhoz részletes információk érhetők el, mint a cím, műfaj, és leírás.
 
-A bejelentkezett felhasználók értékelhetik és véleményezhetik a játékokat.
+A bejelentkezett felhasználók értékelhetik és véleményezhetik a játékokat és saját listát is készíthetnek.
 
 
 Adatok tárolása:
@@ -42,3 +43,8 @@ Felhasználói vélemények és értékelések:
 - játék ID
 - értékelés
 - szöveges vélemény
+
+Listák:
+- ID
+- felhasználó ID
+- játék ID

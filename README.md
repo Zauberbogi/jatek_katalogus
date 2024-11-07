@@ -11,13 +11,13 @@ Ezek az alábbiak:
 - Horror
 - FPS
 - RPG
-- Stratégia
+- Strategy
 - Ritmus
-- Túlélő
+- Survival
 - Battle Royal
 - Sport
-- Verseny
-- Szimuláció
+- Racing
+- Simulation
 
 Minden játékhoz részletes információk érhetők el, mint a cím, műfaj, és leírás.
 

@@ -29,12 +29,15 @@ Felhasználók:
     név
     email
     jelszó hash
+    rang
 
 Játékok adatai:
 
     ID
     cím
     műfaj
+    kiadási dátum
+    leírás
 
 Felhasználói vélemények és értékelések:
 

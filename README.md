@@ -1,6 +1,6 @@
 <h1>Játék katalógus</h1>
 
-Projekt áttekintése
+<h3>Projekt áttekintése</h3>
 
 A Random Play bolt játékokat ajánl fel kölcsönzésre. Lehet nálunk személyesen és online is regisztrálni, az oldalunkon és személyesen lehet nyomon követheti a folyamatokat az elkezdett tevékenységedet. Nem regisztrált felhasználó megnézheti az oldalt, mások listáját és kritikáját, de nem tud listát csinálni sem kritikát írni.
 

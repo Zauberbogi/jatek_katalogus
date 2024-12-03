@@ -1,4 +1,4 @@
-Játék katalógus
+<h1>Játék katalógus</h1>
 
 Projekt áttekintése
 

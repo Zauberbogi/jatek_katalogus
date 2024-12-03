@@ -1,4 +1,4 @@
-INSERT INTO `user_person` (`u_id`, `u_name`, `rank`, `email`, `password`) VALUES
+INSERT INTO `user_person` (`id`, `name`, `rank`, `email`, `password`) VALUES
 (1, 'Zauber Boglárka', 'Admin', 'zauberboglarkaWP@gmail.com', 'ruberduckies'),
 (2, 'György Péter', 'Admin', 'gyorgy.peter.WP@gmail.com', 'MechaMachines'),
 (3, 'Gipsz Jakab', 'Tester', 'gipszjakab@gmail.com', 'gypszjakib'),

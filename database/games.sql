@@ -1,4 +1,4 @@
-INSERT INTO `games` (`g_id`, `g_name`, `genre`, `release_date`, `description`) VALUES
+INSERT INTO `games` (`id`, `name`, `genre`, `release_date`, `description`) VALUES
 (1, 'Warframe', 'Looter Shooter','2012-03-25','A third person shooter game made by Digital Extremes where you collect resources and fight factions as an independent fighter solo or in a team up to 4 people.'),
 (2, 'Team Fortress 2', 'FPS','2007-10-10','A first person class based shooter (nowadays being called a hero shooter) made by Valve studio, this game was included in the Orange Box game bundle and the game went free to play (F2P) in 2011.'),
 (3, 'Need For Speed Underground', 'Racing','2003-11-17','The first PC mainline Need For Speed developed by Black Box Studio. In the game you are illegally race on the streets at night, there are circuit, drag, drift, lap knockout (3 lap circuit races, where each racer gets dropped out) and sprint races.'),

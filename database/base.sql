@@ -5,10 +5,10 @@ USE random_play_store;
 
 CREATE TABLE `games` (
   `id` int(255) AUTO_INCREMENT,
-  `name` mediumtext NOT NULL,
-  `genre` mediumtext NOT NULL,
+  `name` varchar(100) NOT NULL,
+  `genre` varchar(50) NOT NULL,
   `release_date` date NOT NULL, 
-  `description` mediumtext NOT NULL,
+  `description` text NOT NULL,
   PRIMARY KEY (id)
 ) DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
 

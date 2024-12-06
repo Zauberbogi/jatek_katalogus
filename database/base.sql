@@ -14,10 +14,10 @@ CREATE TABLE `games` (
 
 CREATE TABLE `user_person` (
   `id` int(255) AUTO_INCREMENT,
-  `name` mediumtext NOT NULL,
-  `rank` mediumtext NOT NULL,
-  `email` mediumtext NOT NULL,
-  `password` mediumtext NOT NULL,
+  `name` varchar(120) NOT NULL,
+  `rank` varchar(40) NOT NULL,
+  `email` text NOT NULL,
+  `password` varchar(255) NOT NULL,
   PRIMARY KEY (id)
 ) DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
 

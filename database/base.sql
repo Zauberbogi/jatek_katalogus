@@ -27,6 +27,14 @@ CREATE TABLE `comments` (
 	user_id int(255),
 	`comment_text` text NOT NULL,
 	`comment_date` datetime NOT NULL,
-	FOREIGN KEY (game_id) REFERENCES games(id) ,
+	FOREIGN KEY (game_id) REFERENCES games(id),
 	FOREIGN KEY (user_id) REFERENCES user_person(id)
-);
+) DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
+
+CREATE TABLE `ratings` (
+	rating int(1) PRIMARY KEY,
+	game_id int(255),
+	user_id int(255),
+	FOREIGN KEY (game_id) REFERENCES games(id),
+	FOREIGN KEY (user_id) REFERENCES user_person(id)
+) DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;

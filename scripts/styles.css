@@ -1,3 +1,95 @@
-h1 {
+body {
+    margin: 0;
+  }
+  
+  .wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+  }
+  
+  header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+  }
+  
+ 
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1; 
+}
+  
+  .arrow{
+    position: fixed;
+    bottom: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
+  }
+  .arrow p{
+    padding: 6px 15px;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 0px;
+    font-size: 25px;
+  }
+  
+  section {
+    position: relative; 
+    overflow: hidden; 
+    transition: background-color 1s ease-out;
+  }
+  
+  section:hover {
+    background-color: hsla(55, 100%, 85%, 1);
+    cursor: pointer;
+  }
+  
+  section p {
+    font-size: 45px;
+    text-shadow: 0 0 30px black;
+    opacity: 0; 
+    transform: translateY(20px); 
+    transition: opacity 1s ease-out, transform 1s ease-out; 
+  }
+  
+  section:hover p {
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+ul li a {
+    padding: 6px 15px;
+    color: white;
+    border-radius: 20px;
+}
+
+ul li a:hover,
+ul li a.active {
+    color: #5276a7;
+    background: white;
 }

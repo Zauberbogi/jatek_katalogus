@@ -1,0 +1,1 @@
+INSERT INTO `ratings` (`ratings`, `game_id`, `user_id`)

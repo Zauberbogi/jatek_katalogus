@@ -32,7 +32,8 @@ CREATE TABLE `comments` (
 ) DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
 
 CREATE TABLE `ratings` (
-	rating int(1) PRIMARY KEY,
+	id int(255) PRIMARY KEY AUTO_INCREMENT,
+	rating int(1),
 	game_id int(255),
 	user_id int(255),
 	FOREIGN KEY (game_id) REFERENCES games(id),

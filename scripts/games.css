@@ -1,48 +1,51 @@
 body{
     margin: 0;
+    background: 
+    linear-gradient(180deg, rgba(255, 203, 125, 0.8) 0%, rgba(148, 115, 67, 0.8) 30%, rgba(0,0,0,0.8) 77%),
+        url(Random_Play_Counter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 100px;
 }
 
-header {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
-    transform-style: preserve-3d;
-}
-
-ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 25px;
-    position: relative; 
-    z-index: 1;
-}
-
-ul li {
-    list-style: none;
-    margin-left: 20px;
-}
-
-ul li a {
-    padding: 6px 15px;
-    color: black;
-    border-radius: 20px;
-}
-
-ul li a:hover,
-ul li a.active {
-    color: #5276a7;
-    background: white;
-}
-
-.background {
-    position: absolute;
+header{
+    position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
-    object-fit: cover; 
-    z-index: -1; 
+    background-color: black;
+    padding: 50px 20px;
+    z-index: 1000;
+    height: 15px;
+    display: flex;
+}
+
+header img{
+    height: 65px;
+    width: auto;
+}
+
+
+nav {
+    display: flex; 
+    justify-content: flex-end; 
+    width: 90%;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+nav ul li a:hover{
+    color: rgba(255, 203, 125);
 }

@@ -1,6 +1,6 @@
 <h3>Projekt áttekintése</h3>
 
-A Random Play bolt játékokat ajál fel kölcsönzésre. Regisztrált felhasználóként kölcsönözhetsz játékokat, és megoszthatod a tapasztalataidat azzal, hogy véleményt írsz mások számára.
+A Random Play bolt játékokat ajánl fel kölcsönzésre. Regisztrált felhasználóként kölcsönözhetsz játékokat, és megoszthatod a tapasztalataidat azzal, hogy véleményt írsz mások számára.
 
 Főbb funkciók: Játékok közötti böngészésben a felhasználó beállíthatja milyen műfajról szeretne olvasni. Mint például:
 

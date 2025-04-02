@@ -1,8 +1,6 @@
-<h1>Játék katalógus</h1>
-
 <h3>Projekt áttekintése</h3>
 
-A Random Play bolt játékokat ajál fel kölcsönzésre. Lehet nálunk személyesen és online is regisztrálni, az oldalunkon és személyesen lehet nyomon követheti a folyamatokat az elkezdett tevékenységeket. Nem regisztrált felhasználó megnézheti az oldalt, mások listáját és kritikáját, de nem tud listát csinálni, se kritikát írni.
+A Random Play bolt játékokat ajál fel kölcsönzésre. Regisztrált felhasználóként kölcsönözhetsz játékokat, és megoszthatod a tapasztalataidat azzal, hogy véleményt írsz mások számára.
 
 Főbb funkciók: Játékok közötti böngészésben a felhasználó beállíthatja milyen műfajról szeretne olvasni. Mint például:
 
@@ -19,7 +17,7 @@ Főbb funkciók: Játékok közötti böngészésben a felhasználó beállítha
 
 Minden játékhoz részletes információk érhetők el, mint a cím, műfaj, és leírás.
 
-A bejelentkezett felhasználók értékelhetik és véleményezhetik a játékokat és saját listát is készíthetnek.
+A bejelentkezett felhasználók értékelhetik, véleményezhetik és kikölcsönözhetik a játékokat.
 
 Adatok tárolása:
 

@@ -9,7 +9,7 @@
 <body>
     <header>
         <a href="index.html">
-        <img src="rp.png">
+            <img src="rp.png">
         </a>
         <nav>
             <ul>
@@ -20,15 +20,25 @@
         </nav>
     </header>
 
-    <form class="datas">
+    <div class="datas">
         <img src="rp.png"><br>
-        <input type="text" id="email" value="Email"><br>
-        <input type="text"  id="password" value="Password"><br>
-        <input type="button" id="loginButton" value="Login">
-    </form>
+
+        <h2>Register</h2>
+        <form>
+            <input type="text" id="name-register" placeholder="Name"><br>
+            <input type="text" id="email-register" placeholder="Email"><br>
+            <input type="password" id="password-register" placeholder="Password"><br>
+            <input type="button" id="registerButton" value="Register">
+        </form>
+
+        <h2>Login</h2>
+        <form>
+            <input type="text" id="email-login" placeholder="Email"><br>
+            <input type="password" id="password-login" placeholder="Password"><br>
+            <input type="button" id="loginButton" value="Login"><br>
+        </form>
+    </div>
 
     <script src="login.js"></script>
 </body>
 </html>
-
-

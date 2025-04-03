@@ -1,15 +1,17 @@
-body{
+body {
     margin: 0;
     background: 
-    linear-gradient(180deg, rgba(255, 203, 125, 0.8) 0%, rgba(148, 115, 67, 0.8) 30%, rgba(0,0,0,0.8) 77%),
+        linear-gradient(180deg, rgba(255, 203, 125, 0.8) 0%, rgba(148, 115, 67, 0.8) 30%, rgba(0,0,0,0.8) 77%),
         url(Random_Play_Counter.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    background-attachment: fixed;
+    min-height: 100vh; 
     padding-top: 100px;
+    color: white;
 }
 
-header{
+header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -20,11 +22,10 @@ header{
     display: flex;
 }
 
-header img{
+header img {
     height: 65px;
     width: auto;
 }
-
 
 nav {
     display: flex; 
@@ -40,12 +41,207 @@ nav ul {
     padding: 0;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: rgba(255, 203, 125);
+}
+
+.cards {
+    padding: 50px;
+    width: 500px;
+}
+
+.cards h4 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.cards ul, li {
+    list-style-type: none;
+    line-height: 2.0;
+    font-size: 18px;
+}
+
+.cards img {
+    width: 500px;
+    height: 350px;
+}
+
+.cards input[type=button] {
+    background-color: rgb(65, 65, 65);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.cards input[type=button]:hover {
+    background-color: rgb(148, 115, 67);
+}
+
+.row {
+    display: flex;
+}
+
+.container {
+    padding: 50px;
+    line-height: 2.0;
+}
+
+.container h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+.container div {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.container div p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: rgba(255, 203, 125);
+}
+
+.container select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.container textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(65, 65, 65); 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 100px;
+}
+
+.container button#submit {
+    background-color: rgb(148, 115, 67);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.container button#submit:hover {
+    background-color: rgba(255, 203, 125, 0.8);
+}
+
+#recent-reviews {
+    margin-top: 20px;
+}
+
+#recent-reviews h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#recent-reviews p {
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+#rental-status {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#returnButton {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#returnButton:hover {
+    background-color: #cc0000;
+}
+
+@media (max-width: 1024px) {
+    .row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .cards {
+        width: 45%;
+        padding: 20px;
+    }
+
+    .cards img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px;
+        height: auto;
+        position: static;
+    }
+
+    header img {
+        height: 50px;
+        margin-bottom: 10px;
+    }
+
+    nav {
+        width: 100%;
+        justify-content: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    body {
+        padding-top: 0;
+        min-height: 100vh;
+    }
+
+    .cards {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .cards h4 {
+        font-size: 24px;
+    }
 }

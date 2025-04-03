@@ -1,12 +1,14 @@
 body{
     margin: 0;
     background: 
-    linear-gradient(180deg, rgba(255, 203, 125, 0.8) 0%, rgba(148, 115, 67, 0.8) 30%, rgba(0,0,0,0.8) 77%),
+        linear-gradient(180deg, rgba(255, 203, 125, 0.8) 0%, rgba(148, 115, 67, 0.8) 30%, rgba(0,0,0,0.8) 77%),
         url(login.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    background-attachment: fixed;
+    min-height: 100vh; 
     padding-top: 100px;
+    color: white;
 }
 
 header{
@@ -51,7 +53,7 @@ nav ul li a:hover{
 }
 
 .datas{
-    margin-top: 450px;
+    margin-top: 250px;
     text-align: center;
 }
 
@@ -76,4 +78,84 @@ nav ul li a:hover{
     height: 80px;
     width: auto;
     border-radius: 50px;
+}
+
+.datas h2{
+    color: white;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px;
+        height: auto;
+        position: static;
+    }
+
+    header img {
+        height: 50px;
+        margin-bottom: 10px;
+    }
+
+    nav {
+        width: 100%;
+        justify-content: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    body {
+        padding-top: 0;
+        height: auto;
+    }
+
+    .login-section {
+        padding: 20px;
+    }
+
+    .login-section h1 {
+        font-size: 28px;
+    }
+
+    .login-form {
+        padding: 15px;
+    }
+
+    .login-form label {
+        font-size: 16px;
+    }
+
+    .login-form input,
+    .login-form button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    header img {
+        height: 40px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    .login-section h1 {
+        font-size: 24px;
+    }
+
+    .login-form label {
+        font-size: 14px;
+    }
+
+    .login-form input,
+    .login-form button {
+        font-size: 12px;
+        padding: 6px;
+    }
 }

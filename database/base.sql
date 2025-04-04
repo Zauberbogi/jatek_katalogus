@@ -19,7 +19,7 @@ CREATE TABLE `user_person` (
   `email` text NOT NULL,
   `password` varchar(255) NOT NULL,
   `rented_game_id` int(255),
-  `rental_date` date
+  `rental_date` date,
   PRIMARY KEY (id)
 ) DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
 

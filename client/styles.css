@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    background: 
+        linear-gradient(180deg, rgba(255, 203, 125, 0.8) 0%, rgba(148, 115, 67, 0.8) 30%, rgba(0,0,0,0.8) 77%),
+        url(uzlet.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh; 
+    padding-top: 100px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    padding: 50px 20px;
+    z-index: 1000;
+    height: 15px;
+    display: flex;
+}
+
+header img{
+    height: 65px;
+    width: auto;
+}
+
+
+nav {
+    display: flex; 
+    justify-content: flex-end; 
+    width: 90%;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+nav ul li a:hover{
+    color: rgba(255, 203, 125);
+}
+
+.aboutus{
+    padding-left: 150px;
+    padding-right: 150px;
+    color: white;
+    text-shadow: 3px 3px 5px black, -2px -2px 5px gray;
+}
+
+.aboutus p{
+    font-size: 3rem;
+}
+
+.aboutus h3{
+    text-align: center;
+    padding-bottom: 1px;
+    font-size: 60px;
+}
+
+.gamingpng{
+    text-align: center;
+}
+
+.gamingpng img{
+    width: 500px;
+    height: 350px;
+}
+
+@media (max-width: 1024px) {
+    .aboutus {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .aboutus h3 {
+        font-size: 48px;
+    }
+
+    .aboutus p {
+        font-size: 2rem;
+    }
+
+    .gamingpng img {
+        width: 400px;
+        height: 280px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px;
+        height: auto;
+        position: static;
+    }
+
+    header img {
+        height: 50px;
+        margin-bottom: 10px;
+    }
+
+    nav {
+        width: 100%;
+        justify-content: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    body {
+        padding-top: 0;
+        height: auto;
+    }
+
+    .aboutus {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .aboutus h3 {
+        font-size: 36px;
+    }
+
+    .aboutus p {
+        font-size: 1.5rem;
+    }
+
+    .gamingpng img {
+        width: 300px;
+        height: 210px;
+    }
+}
+
+@media (max-width: 480px) {
+    header img {
+        height: 40px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    .aboutus {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .aboutus h3 {
+        font-size: 28px;
+    }
+
+    .aboutus p {
+        font-size: 1rem;
+    }
+
+    .gamingpng img {
+        width: 200px;
+        height: 140px;
+    }
+}
